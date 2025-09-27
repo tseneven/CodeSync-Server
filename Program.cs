@@ -1,3 +1,4 @@
+using API.Infrastructure.Repositorys.Board;
 using backend.Infrastructure.Repositorys.Auth;
 using backend.Infrastructure.Repositorys.Auth.Guards;
 using backend.Middleware;
@@ -14,6 +15,10 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSingleton<JWTService>();
+builder.Services.AddHttpContextAccessor();
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+builder.Logging.SetMinimumLevel(LogLevel.Debug);
 
 
 builder.Services.AddCors(options =>
@@ -34,6 +39,7 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
 );
 
 builder.Services.AddScoped<IAuth_Repository, Auth_Repository>();
+builder.Services.AddScoped<IBoard_Repository, Board_Repository>();
 
 builder.Services.AddHttpLogging(logging =>
 {
@@ -60,10 +66,29 @@ builder.Services.AddAuthentication("Bearer")
             IssuerSigningKey = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]))
         };
+        options.Events = new Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerEvents
+        {
+            OnMessageReceived = context =>
+            {
+                var token = context.Request.Headers["Authorization"].ToString();
+                if (!string.IsNullOrEmpty(token) && token.StartsWith("Bearer "))
+                {
+                    token = token.Substring("Bearer ".Length).Trim(); 
+                    context.Token = token;
+                }
+                return Task.CompletedTask;
+            },
+            OnAuthenticationFailed = context =>
+            {
+                Console.WriteLine("Auth failed: " + context.Exception.Message);
+                return Task.CompletedTask;
+            }
+        };
     });
 
 
 builder.Services.AddAuthorization();
+
 
 
 var app = builder.Build();

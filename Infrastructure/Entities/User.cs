@@ -1,4 +1,5 @@
 ﻿
+using API.Infrastructure.Entities;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -29,5 +30,9 @@ namespace backend.Infrastructure.Entities
         [Required]
         [MaxLength(100)]
         public string Readme { get; set; }
+
+        public ICollection<Boards> Boards { get; set; }
+        public ICollection<Likes> Likes { get; set; }
+
     }
 }

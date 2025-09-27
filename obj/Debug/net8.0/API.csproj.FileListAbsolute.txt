@@ -143,6 +143,7 @@ C:\Users\Neven\Documents\my\RPS_All\rps_server\API\bin\Debug\net8.0\tr\Microsoft
 C:\Users\Neven\Documents\my\RPS_All\rps_server\API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Neven\Documents\my\RPS_All\rps_server\API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\Neven\Documents\my\RPS_All\rps_server\API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Neven\Documents\my\RPS_All\rps_server\API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
 C:\Users\Neven\Documents\my\RPS_All\rps_server\API\obj\Debug\net8.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\Neven\Documents\my\RPS_All\rps_server\API\obj\Debug\net8.0\staticwebassets\msbuild.build.API.props
 C:\Users\Neven\Documents\my\RPS_All\rps_server\API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.API.props

@@ -30,5 +30,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Web.Controllers.BordersController",
+    "Method": "CreateBorder",
+    "RelativePath": "api/Borders/CreateBorder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "boradDTO",
+        "Type": "API.Application.DTO.BoardDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Web.Controllers.BordersController",
+    "Method": "GetAll",
+    "RelativePath": "api/Borders/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]

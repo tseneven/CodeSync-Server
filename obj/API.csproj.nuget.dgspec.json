@@ -68,7 +68,11 @@
               "target": "Package",
               "version": "[9.0.9, )"
             },
-            "Microsoft.IdentityModel.Tokens": {
+            "Microsoft.Identity.Client": {
+              "target": "Package",
+              "version": "[4.77.1, )"
+            },
+            "Microsoft.IdentityModel.JsonWebTokens": {
               "target": "Package",
               "version": "[8.14.0, )"
             },
