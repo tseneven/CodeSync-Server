@@ -56,5 +56,21 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API.Web.Controllers.BordersController",
+    "Method": "LikeBoard",
+    "RelativePath": "api/Borders/LikeBoard",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "likes",
+        "Type": "API.Application.DTO.LikesDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

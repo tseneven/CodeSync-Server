@@ -63,11 +63,11 @@ namespace API.Infrastructure.Repositorys.Board
                         Username = b.username,
                         text = b.text,
                         date = b.date,
-                        likes = b.Likes.Select(l => new Application.DTO.Likes
+                        likes = b.Likes.Select(l => new LikesDTO
                         {
                             Id = l.ID,
                             BoardId = l.BoardID,
-                            UserId = l.UserID,
+                            UserId = l.UserID.ToString(),
                             Username = l.Username
                         }).ToList(),
                         countLikes = b.Likes.Count,
@@ -80,6 +80,27 @@ namespace API.Infrastructure.Repositorys.Board
             catch (Exception ex)
             {
                 return new List<BoardList>();
+            }
+        }
+        public async Task<string> LikeBoard(LikesDTO likes)
+        {
+            try
+            {
+
+                Likes like = new Likes 
+                { 
+                    UserID = int.Parse(likes.UserId), 
+                    BoardID = likes.BoardId, 
+                    Username = likes.Username 
+                };
+
+                _context.Add(like);
+                await _context.SaveChangesAsync();
+                return "Запись создана";
+            }
+            catch (Exception ex)
+            {
+                return ex.Message;
             }
         }
     }

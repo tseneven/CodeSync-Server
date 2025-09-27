@@ -74,7 +74,7 @@ namespace backend.Infrastructure.Repositorys.Auth
                 if (userDTO.PasswordHash == hash_passwordString)
                 {
                     var token = _jwtService.GenerateToken(userDTO.Id.ToString(), userDTO.Email);
-                    return new AuthDTO { Token = token, UserID = userEntity.ID, Username = userEntity.Login };
+                    return new AuthDTO { Token = token, UserID = userEntity.ID.ToString(), Username = userEntity.Login };
                 }
                 return new AuthDTO { Exeption = "Пароль неверный" };
             }

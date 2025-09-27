@@ -45,5 +45,20 @@ namespace API.Web.Controllers
                 return StatusCode(500);
             }
         }
+
+        [Authorize]
+        [HttpPost("LikeBoard")]
+        public async Task<IActionResult> LikeBoard([FromBody] LikesDTO likes)
+        {
+            try
+            {
+                var result = await _boradRepository.LikeBoard(likes);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500);
+            }
+        }
     }
 }

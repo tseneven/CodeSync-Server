@@ -2,7 +2,7 @@
 {
     public class AuthDTO
     {
-        public int? UserID { get; set; }
+        public String? UserID { get; set; }
         public string? Username { get; set; }
         public string? Token { get; set; }
         public string? Exeption { get; set; }

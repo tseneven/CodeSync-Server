@@ -15,7 +15,7 @@ namespace Backend.Core.Database
         public DbSet<User> Users { get; set; }
         public DbSet<Boards> Borders { get; set; }
 
-        public DbSet<Likes> Likes { get; set; }
+        public DbSet<Likes> Like { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

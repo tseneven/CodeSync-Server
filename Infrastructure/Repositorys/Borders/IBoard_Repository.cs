@@ -6,5 +6,6 @@ namespace API.Infrastructure.Repositorys.Board
     {
         Task<string> CreateBorder(BoardDTO borderDTO);
         Task<List<BoardList>> GetAll();
+        Task<string> LikeBoard(LikesDTO likes);
     }
 }
