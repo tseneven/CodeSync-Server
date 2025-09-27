@@ -5,6 +5,7 @@ using backend.Infrastructure.Entities;
 using Domain.GenerateSalt;
 using Microsoft.AspNetCore.Mvc;
 using backend.Infrastructure.Repositorys.Auth.Guards;
+using API.Application.DTO;
 
 namespace backend.Infrastructure.Repositorys.Auth
 {
@@ -46,13 +47,13 @@ namespace backend.Infrastructure.Repositorys.Auth
             return "Такая запись уже есть";
 
         }
-        public async Task<string> Login(RegisterDTO registerDTO)
+        public async Task<AuthDTO> Login(RegisterDTO registerDTO)
         {
             var userEntity = await _context.Users
             .FirstOrDefaultAsync(u => u.Email == registerDTO.Email);
 
             if (userEntity == null)
-                return "Такого юзера нет";
+                return new AuthDTO{ Exeption = "Такого юзера нет" };
 
             var userDTO = new UserDTO
             {
@@ -73,12 +74,12 @@ namespace backend.Infrastructure.Repositorys.Auth
                 if (userDTO.PasswordHash == hash_passwordString)
                 {
                     var token = _jwtService.GenerateToken(userDTO.Id.ToString(), userDTO.Email);
-                    return token;
+                    return new AuthDTO { Token = token, UserID = userEntity.ID, Username = userEntity.Login };
                 }
-                return "Пароль неверный";
+                return new AuthDTO { Exeption = "Пароль неверный" };
             }
 
-            return "Такого юзера нет"; 
+            return new AuthDTO { Exeption = "Такого юзера нет" }; 
         }
     }
 }

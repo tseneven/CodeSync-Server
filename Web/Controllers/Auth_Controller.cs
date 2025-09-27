@@ -22,11 +22,11 @@ namespace backend.Controllers
             {
                 var token = await _authRepository.Login(registerDTO);
 
-                if (token == "Такого юзера нет")
+                if (token.Token == "Такого юзера нет")
                 {
                     return NotFound(token);
                 }
-                if (token == "Пароль неверный")
+                if (token.Token == "Пароль неверный")
                 {
                     return StatusCode(403, token);
                 }

@@ -41,6 +41,8 @@ builder.Services.AddDbContext<ApplicationContext>(options =>
 builder.Services.AddScoped<IAuth_Repository, Auth_Repository>();
 builder.Services.AddScoped<IBoard_Repository, Board_Repository>();
 
+builder.Services.AddSwaggerGen();
+
 builder.Services.AddHttpLogging(logging =>
 {
     logging.LoggingFields = HttpLoggingFields.RequestMethod |
@@ -71,9 +73,11 @@ builder.Services.AddAuthentication("Bearer")
             OnMessageReceived = context =>
             {
                 var token = context.Request.Headers["Authorization"].ToString();
+                Console.WriteLine($"Token received: {token}");
                 if (!string.IsNullOrEmpty(token) && token.StartsWith("Bearer "))
                 {
-                    token = token.Substring("Bearer ".Length).Trim(); 
+                    token = token.Substring("Bearer ".Length).Trim();
+                    Console.WriteLine($"Token after trim: {token}");
                     context.Token = token;
                 }
                 return Task.CompletedTask;
@@ -102,6 +106,12 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 app.UseCors();
+
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
 app.MapControllers();
 

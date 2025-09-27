@@ -28,7 +28,7 @@ namespace API.Infrastructure.Repositorys.Board
 
                 Boards borders = new Boards
                 {
-                    UserID = boardDTO.UserID,
+                    UserID = int.Parse(boardDTO.UserID),
                     username = boardDTO.Username,
                     text = boardDTO.text,
                     haveImage = boardDTO.haveImage ?? false,

@@ -3,8 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\repositorys\\borders\\board_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\repositorys\\borders\\board_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\repositorys\\borders\\iboard_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\repositorys\\borders\\iboard_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\application\\dto\\borad.dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:application\\dto\\borad.dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\application\\dto\\register.dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:application\\dto\\register.dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\web\\controllers\\auth_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:web\\controllers\\auth_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\repositorys\\auth\\auth_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\repositorys\\auth\\auth_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\application\\dto\\auth.dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:application\\dto\\auth.dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\repositorys\\auth\\iauth_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\repositorys\\auth\\iauth_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\migration\\applicationcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\migration\\applicationcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\repositorys\\auth\\guards\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\repositorys\\auth\\guards\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\application\\dto\\boardlist.dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,68 +59,28 @@
       "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:application\\dto\\likes.dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\web\\controllers\\borders_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:web\\controllers\\borders_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\repositorys\\borders\\iboard_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\repositorys\\borders\\iboard_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\migration\\applicationcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\migration\\applicationcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\migration\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\migration\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\entities\\likes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\entities\\likes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\web\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:web\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\entities\\likes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\entities\\likes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\web\\controllers\\borders_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:web\\controllers\\borders_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\migration\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\migration\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\entities\\boards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\entities\\boards.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\application\\dto\\borad.dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:application\\dto\\borad.dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\repositorys\\auth\\auth_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\repositorys\\auth\\auth_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\web\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:web\\middleware\\exceptionhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\web\\controllers\\auth_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:web\\controllers\\auth_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\repositorys\\auth\\iauth_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\repositorys\\auth\\iauth_repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\application\\dto\\register.dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:application\\dto\\register.dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|c:\\users\\neven\\documents\\my\\rps_all\\rps_server\\api\\infrastructure\\repositorys\\auth\\guards\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A546F61-12B8-472C-9091-0BA80D9C32ED}|API.csproj|solutionrelative:infrastructure\\repositorys\\auth\\guards\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,11 +90,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
+              "Title": "Auth.dto.cs",
+              "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Application\\DTO\\Auth.dto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\Auth.dto.cs",
+              "ToolTip": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Application\\DTO\\Auth.dto.cs",
+              "RelativeToolTip": "Application\\DTO\\Auth.dto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-27T15:34:26.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Likes.dto.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Application\\DTO\\Likes.dto.cs",
               "RelativeDocumentMoniker": "Application\\DTO\\Likes.dto.cs",
@@ -103,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 12,
               "Title": "BoardList.dto.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Application\\DTO\\BoardList.dto.cs",
               "RelativeDocumentMoniker": "Application\\DTO\\BoardList.dto.cs",
@@ -116,20 +133,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Board_Repository.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Infrastructure\\Repositorys\\Borders\\Board_Repository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositorys\\Borders\\Board_Repository.cs",
               "ToolTip": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Infrastructure\\Repositorys\\Borders\\Board_Repository.cs",
               "RelativeToolTip": "Infrastructure\\Repositorys\\Borders\\Board_Repository.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAQwEkAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwCEAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T11:38:43.73Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "ApplicationContextFactory.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Infrastructure\\Migration\\ApplicationContextFactory.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migration\\ApplicationContextFactory.cs",
@@ -142,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 16,
               "Title": "Likes.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Infrastructure\\Entities\\Likes.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Likes.cs",
@@ -155,7 +172,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Infrastructure\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\User.cs",
@@ -168,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ExceptionHandlingMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Web\\Middleware\\ExceptionHandlingMiddleware.cs",
               "RelativeDocumentMoniker": "Web\\Middleware\\ExceptionHandlingMiddleware.cs",
@@ -181,46 +198,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-09-27T12:01:29.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T12:00:48.55Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 11,
               "Title": "JWTService.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Infrastructure\\Repositorys\\Auth\\Guards\\JWTService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositorys\\Auth\\Guards\\JWTService.cs",
               "ToolTip": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Infrastructure\\Repositorys\\Auth\\Guards\\JWTService.cs",
               "RelativeToolTip": "Infrastructure\\Repositorys\\Auth\\Guards\\JWTService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T11:58:29.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 18,
               "Title": "DBContext.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Infrastructure\\Migration\\DBContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migration\\DBContext.cs",
@@ -233,72 +250,72 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
               "Title": "Auth_Repository.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Infrastructure\\Repositorys\\Auth\\Auth_Repository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositorys\\Auth\\Auth_Repository.cs",
               "ToolTip": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Infrastructure\\Repositorys\\Auth\\Auth_Repository.cs",
               "RelativeToolTip": "Infrastructure\\Repositorys\\Auth\\Auth_Repository.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAQwEEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAQwEQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T11:39:49.227Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 9,
               "Title": "IAuth_Repository.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Infrastructure\\Repositorys\\Auth\\IAuth_Repository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositorys\\Auth\\IAuth_Repository.cs",
               "ToolTip": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Infrastructure\\Repositorys\\Auth\\IAuth_Repository.cs",
               "RelativeToolTip": "Infrastructure\\Repositorys\\Auth\\IAuth_Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T11:37:38.548Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IBoard_Repository.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Infrastructure\\Repositorys\\Borders\\IBoard_Repository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositorys\\Borders\\IBoard_Repository.cs",
               "ToolTip": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Infrastructure\\Repositorys\\Borders\\IBoard_Repository.cs",
               "RelativeToolTip": "Infrastructure\\Repositorys\\Borders\\IBoard_Repository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T11:37:27.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 5,
               "Title": "Register.dto.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Application\\DTO\\Register.dto.cs",
               "RelativeDocumentMoniker": "Application\\DTO\\Register.dto.cs",
               "ToolTip": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Application\\DTO\\Register.dto.cs",
               "RelativeToolTip": "Application\\DTO\\Register.dto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T11:34:02.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "Borad.dto.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Application\\DTO\\Borad.dto.cs",
               "RelativeDocumentMoniker": "Application\\DTO\\Borad.dto.cs",
               "ToolTip": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Application\\DTO\\Borad.dto.cs",
               "RelativeToolTip": "Application\\DTO\\Borad.dto.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAIAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T11:33:55.286Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "Boards.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Infrastructure\\Entities\\Boards.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Entities\\Boards.cs",
@@ -311,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 17,
               "Title": "Borders_Controller.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Web\\Controllers\\Borders_Controller.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\Borders_Controller.cs",
@@ -324,13 +341,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "Auth_Controller.cs",
               "DocumentMoniker": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Web\\Controllers\\Auth_Controller.cs",
               "RelativeDocumentMoniker": "Web\\Controllers\\Auth_Controller.cs",
               "ToolTip": "C:\\Users\\Neven\\Documents\\my\\RPS_All\\rps_server\\API\\Web\\Controllers\\Auth_Controller.cs",
               "RelativeToolTip": "Web\\Controllers\\Auth_Controller.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBIAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-27T11:31:44.274Z",
               "EditorCaption": ""
